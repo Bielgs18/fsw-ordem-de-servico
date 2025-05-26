@@ -1,0 +1,78 @@
+/* src/styles/OrdemServicoDetalhe.css */
+.ordem-servico-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  .informacoes-orbita p {
+    margin-left: 20px;
+  }
+  
+  .dados-tecnicos p {
+    margin-left: 20px;
+  }
+  
+  .assinaturas .assinatura {
+    margin-bottom: 15px;
+  }
+  
+  .imagens-servico .imagens {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .imagens-servico img {
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .historico-comentarios ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .historico-comentarios li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #4CAF50;
+  }
+  
+  .historico-comentarios strong {
+    color: #4CAF50;
+  }
+  
+  .historico-comentarios p {
+    color: #777;
+    font-size: 0.9rem;
+  }
+  
+  h4 + p {
+    margin-top: 5px;
+  }
+  

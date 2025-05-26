@@ -1,0 +1,8 @@
+/* src/components/CampoAssinatura.css */
+.sigCanvas {
+  border: 1px solid #000;
+  background: #fff;
+}
+.campo-assinatura {
+  margin: 1rem 0;
+}

@@ -1,0 +1,111 @@
+/* Usuarios.css */
+
+.usuarios-page {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f0f2f5;
+    min-height: 100vh;
+  }
+  
+  .usuarios-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .usuarios-card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .usuarios-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .usuarios-table th,
+  .usuarios-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .usuarios-table th {
+    background: #f7f7f7;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .usuarios-table tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+  
+  .btn-primary {
+    background: #4ca1ff;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background: #4095e0;
+  }
+  
+  .btn-secondary {
+    background: #ccc;
+    color: #333;
+  }
+  
+  .btn-secondary:hover {
+    background: #bbb;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .modal-content h3 {
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content form > * {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  

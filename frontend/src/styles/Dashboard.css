@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0; /* cinza claro uniforme */
+  color: #333;
+}
+
+.dashboard-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* mesma cor de fundo da tela toda */
+}
+
+/* Sidebar com mesmo tom de cinza claro */
+.sidebar {
+  width: 240px;
+  background-color: #f0f0f0; /* cor unificada */
+  color: #000;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #e0e0e0;
+}
+
+/* Conteúdo principal com mesma cor do sidebar */
+.dashboard-content {
+  flex: 1;
+  padding: 2rem 3rem;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+}
+
+.dashboard-content h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1d3557;
+}
+
+/* Tabela com fundo branco */
+.tabela-ordens-servico {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem;
+}

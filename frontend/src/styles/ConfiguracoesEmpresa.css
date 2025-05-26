@@ -1,0 +1,72 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container principal */
+  .config-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  .config-title {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Formulário */
+  .config-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .config-form label {
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .config-form input[type="text"],
+  .config-form input[type="email"],
+  .config-form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Estilo do botão */
+  .config-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .config-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Pré-visualização da logo */
+  .logo-preview {
+    margin-top: 10px;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  

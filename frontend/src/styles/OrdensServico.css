@@ -1,0 +1,51 @@
+/* Filtros acima da tabela */
+select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* Espaçamento entre filtros */
+select + select {
+  margin-left: 10px;
+}
+
+/* Estilo da tabela */
+.tabela-ordens-servico {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.tabela-ordens-servico th,
+.tabela-ordens-servico td {
+  padding: 12px 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela-ordens-servico th {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Botões de ação */
+.tabela-ordens-servico button {
+  padding: 6px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1d3557;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.tabela-ordens-servico button:hover {
+  background-color: #457b9d;
+}
